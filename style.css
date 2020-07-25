@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    padding-top: 50px;
+    background-image: url('images/todo-bg.png');
+    background-repeat: repeat;
+}
+h3{
+    font-style: italic;
+}
+input:focus{
+    background-color: lightgrey;
+    font-weight: bold;
+    
+}
+input{
+    padding: 8px;
+    border-radius: 10px;
+
+}
+.addItemBtn {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    
+}
+#list{
+    margin-top: 50px;
+    list-style-type: decimal;
+
+   
+}
+#alldelbtn{
+    background-color: lightskyblue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.addItemBtn:hover, #alldelbtn:hover {
+   background-color: blue ;
+}
+h1{
+    color: blue;
+    font-size: 80px;
+    text-shadow: 3px 4px grey;
+}
+.deletebtn{
+    border: 2px solid red;
+    cursor: pointer;
+    border-color:red;
+    color: red;
+    padding: 5px;
+    margin-top: 8px;
+    margin-left: 6px;
+    border-radius: 5px;
+}
+.deletebtn:hover{
+    background-color: red;
+    color: white;
+}
+.editbtn{
+    border-color: #2196F3;
+    color: dodgerblue;
+    padding: 5px;
+    margin-left: 6px;
+    border-radius: 5px;
+}
+.editbtn:hover {
+    background: #2196F3;
+    color: white;
+  }
